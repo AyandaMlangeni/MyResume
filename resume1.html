@@ -6,25 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> My resume</title>
 
-    <link rel="stylesheet" href="css/styleesheet.css"/>
+    <link rel="stylesheet" href="CSS/stylesheet.css"/>
 </head>
 <body> 
-    <header>
-        <center>
-   <img class="headShotStyle"
-    src="./images/headshot.jpeg" 
-    width="250"
-    height="150"
-    alt="Some backup text" />
-   </center>
+    <header id="heading">
+       
+   <img src="./images/headshot.jpeg" 
+    alt="Headshot of Ayanda Mlangeni" 
+    id="profilePhoto"
+    width="20%">
 
    <h1 style="text-align:center">Ayanda Mlangeni</h1>
     <!--My introductory personal statement-->
-   <p>A highly motivated and schooling front-end developer.</p>
+   <p>A highly motivated and studying front-end developer.</p>
 </header>
 <main class="main">
     <section class="menu">
         <div id="sidebar">
+            <nav>
             <!--Links for menu-->
       <h2>Menu</h2>
       <ul class="navList">
@@ -33,24 +32,24 @@
         <li><a href="#skills">Skills</a></li>
     </ul>
    </div>
+</nav>
     </section>
     <article style="padding-left:50px;">
-   
-
+   <section id="education" class="educationSectionFont">
    <p><b> <h2 id="education">Education</b></p></h2>
   Intro to Web at <a href="https://www.codespace.co.za"
    target="_blank"
    >Coding at CodeSpace</a>
    <p><b>Qualification 1</b></p>
    <p>Bachelor of Science in Information Technology</p>
-
-   <p><b><h2 id="experience">Experience</b></p></body></h2>
+</section>
+   <p><b><h2><section id="experience">Experience</b></p></body></h2>
    <p><b>Job 1</b></p>
    <p>IT Technician </p>
    <p>Fixed minor issues on computers, cameras and tills. Upgrading system to enable</p>
    <p>compatible software also installing and upgrading anti-virus software to ensure</p>
    <p>security at the user level.</p>
-
+   
    <p><b>Job 2</b></p>
    <p>Assistant manager</p>
    <p>I did book-keeping, address customer concerns, monitor cash flow and double checking</p>
@@ -60,8 +59,9 @@
    <p><b>Job 3</b></p>
    <p>Typing and compiling reports, managing database and filling systems, liaising with staff,</p>
     <p>filling expenses and maintaining supply inventory.</p>
+</section>
 
-    <p><b><h2 id="skills">Skills</b></p></h2>
+    <p><b><h2><section id="skills">Skills</b></p></h2>
     <ul>
         <li>Great communicator</li>
         <li>Team player</li>
@@ -71,13 +71,22 @@
         <li>Time management</li>
         <li>Problem-solving</li>
         <li>Computer literacy</li>
-        
+        <li>Code in html and css</li>
+        </ul>
     </ul>
-
+</article>
     <footer>
     <p><h2 style="color:#FFFFFF">Contact Details</h2></p>
-    <a href="https://www.linkedin.com/in/ayanda-mlangeni-3b5066181/" style="color:#FFFFFF">
-    
-    </a>
+   
+    <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJNwfPdFCzDVPJZsfVDfqlFNSnqCRwDCPfJPqlTGFhlWgDjLhQWJCmpJdcfrfFWhvPrzStL" target="_blank"><p style="color:white">Email Me Here</p>
+        <img class="icons" src="./images/Gmail.jpeg">
+
+       <br> <a href="https://www.linkedin.com/in/ayanda-mlangeni-3b5066181" style="color:#FFFFFF;"> </br>
+            <img class="icons" src="./images/linkedin.png">
+
+        <br><a href="https://web.facebook.com/ayanda.mlangeni.7?_rdc=1&_rdr"></br>
+            <img class="icons" src="./images/facebook.jpeg">
+    <br><a href="https://twitter.com/ayakins3"></br>
+        <img class="icons" src="./images/twitter.png">
         </footer>
 </body>
